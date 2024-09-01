@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://idanhazan.github.io/pyguru/'
 theme = 'PaperMod'
 [languages.en]
   contentDir = 'content/en'
