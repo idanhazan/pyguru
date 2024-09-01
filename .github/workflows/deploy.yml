@@ -22,7 +22,7 @@ jobs:
 
       - name: Build
         run: hugo --minify
-        working-directory: ./pyguru
+        working-directory: ./
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
