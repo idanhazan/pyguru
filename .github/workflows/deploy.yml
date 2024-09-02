@@ -20,14 +20,14 @@ jobs:
         with:
           hugo-version: '0.133.1'
 
-      - name: Clone PaperMod Theme with Depth
-        run: git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
-
-      - name: Add PaperMod Theme as Submodule
-        run: git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-
-      - name: Initialize and Update Submodules Recursively
-        run: git submodule update --init --recursive
+#      - name: Clone PaperMod Theme with Depth
+#        run: git clone --depth=1 https://github.com/adityatelange/hugo-PaperMod themes/PaperMod
+#
+#      - name: Add PaperMod Theme as Submodule
+#        run: git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+#
+#      - name: Initialize and Update Submodules Recursively
+#        run: git submodule update --init --recursive
 
       - name: Install Hugo Modules
         run: hugo mod get -u
