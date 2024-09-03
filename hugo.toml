@@ -60,7 +60,7 @@ defaultContentLanguageInSubdir = true
 [languages.en.params.profileMode]
   subtitle = 'From Basics to Mastery: In-Depth Python Learning'
 [languages.he.params.profileMode]
-  subtitle = 'מהיסודות ועד לשליטה מלאה: למFידה מעמיקה בפייתון'
+  subtitle = 'מהיסודות ועד לשליטה מלאה: למידה מעמיקה בפייתון'
 [[params.socialIcons]]
   name = 'LinkedIn'
   url = 'https://www.linkedin.com/in/idanhazan'
