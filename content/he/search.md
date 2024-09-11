@@ -1,8 +1,6 @@
----
-title: "חיפוש"
-layout: "search"
-url: "/he/search"
-description: "הזן מילות מפתח כדי למצוא תוכן רלוונטי במהירות. השתמש במונחים ספציפיים לצמצום התוצאות ומצא בקלות את המידע שאתה זקוק לו."
-summary: "search"
-placeholder: "הקלד כאן את מילות המפתח לחיפוש"
----
++++
+title = "search.pageTitle"
+description = "search.pageDescription"
+placeholder = "search.pagePlaceholder"
+layout = "search"
++++
