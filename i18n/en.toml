@@ -1,0 +1,33 @@
+home = "Homepage"
+translations = "Translations"
+edit_post = "Edit on GitHub"
+toc = "Table of Contents"
+code_copy = "Copy"
+code_copied = "Copied!"
+prev_page = "Previous"
+next_page = "Next"
+[read_time]
+  one = "1 minute"
+  other = "{{ .Count }} minutes"
+[words]
+  one = "1 word"
+  other = "{{ .Count }} words"
+[search]
+  pageTitle = "Search"
+  pageDescription = "Search within pages is conducted by title or content."
+  pagePlaceholder = "Type here to search"
+[categories]
+  pageTitle = "Categories"
+  pageDescription = "General topics that organize content by main areas."
+  basic-knowledge = "Basic Knowledge"
+[tags]
+  pageTitle = "Tags"
+  pageDescription = "Specific terms for describing and tagging content by small topics."
+  versions = "Versions"
+  keywords = "Keywords"
+  symbols = "Symbols"
+  modules = "Modules"
+  scopes = "Scopes"
+[topics]
+  pageTitle = "Topics"
+  pageDescription = "Table of Contents for Learning Topics."

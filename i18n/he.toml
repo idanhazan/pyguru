@@ -1,0 +1,33 @@
+home = "דף הבית"
+translations = "תרגומים"
+edit_post = "ערוך ב-GitHub"
+toc = "תוכן עניינים"
+code_copy = "העתק"
+code_copied = "הועתק!"
+prev_page = "הקודם"
+next_page = "הבא"
+[read_time]
+  one = "דקה אחת"
+  other = "{{ .Count }} דקות"
+[words]
+  one = "מילה אחת"
+  other = "{{ .Count }} מילים"
+[search]
+  pageTitle = "חיפוש"
+  pageDescription = " החיפוש בדפים מתבצע באמצעות הכותרת או התוכן."
+  pagePlaceholder = "הקלד כאן כדי לחפש"
+[categories]
+  pageTitle = "קטגוריות"
+  pageDescription = "נושאים כלליים שמארגנים את התוכן לפי תחומים עיקריים."
+  basic-knowledge = "ידע בסיסי"
+[tags]
+  pageTitle = "תגיות"
+  pageDescription = "מונחים ספציפיים לתיאור ותיוג תוכן לפי נושאים קטנים."
+  versions = "גרסאות"
+  keywords = "מילים שמורות"
+  symbols = "סימנים"
+  modules = "מודולים"
+  scopes = "היקפים"
+[topics]
+  pageTitle = "נושאים"
+  pageDescription = "רשימת התוכן של נושאי הלימוד."
