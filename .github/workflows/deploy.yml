@@ -5,15 +5,20 @@ on:
     branches:
       - main
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
@@ -33,7 +38,7 @@ jobs:
         run: hugo mod get -u
 
       - name: Build site
-        run: hugo --minify
+        run: hugo --gc --minify
 
       - name: Add CNAME file
         run: echo 'pyguru.org' > public/CNAME
